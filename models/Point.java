@@ -1,4 +1,3 @@
-
 package models;
 
 public class Point {
@@ -8,9 +7,9 @@ public class Point {
         x=xCrd;
         y=yCrd;
     }
-    public double distance(Point first){
-        double X= first.x - x;
-        double Y= first.y - y;
+    public double distance(Point point1){
+        double X= point1.x - x;
+        double Y= point1.y - y;
         return Math.sqrt(X*X+Y*Y);
     }
 }
