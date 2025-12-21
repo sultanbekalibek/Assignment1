@@ -25,9 +25,9 @@ public class MyApplication {
         boolean running = true;
         while (running) {
             System.out.println("Выберите действие");
-            System.out.println("Периметр фигуры:");
-            System.out.println("Длина самой длинной стороны:");
-            System.out.println("Средняя длина сторон");
+            System.out.println("1.Периметр фигуры:");
+            System.out.println("2.Длина самой длинной стороны:");
+            System.out.println("3.Средняя длина сторон");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:
